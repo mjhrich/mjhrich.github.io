@@ -1,0 +1,37 @@
+body{ padding-top: 50px; }
+
+.jumbotron {
+  background-color: #2C87B2;
+}
+
+.featurette-one{
+  background-color: #18777F;
+}
+
+.featurette-two{
+  background-color: #337F7A;
+}
+
+
+.featurette-three{
+  background-color: #297F77;
+}
+
+/*h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}*/
+
+
+/*.box {
+  background-color: #EEEEEE;
+  border: #333333 solid 1px;
+  height: 40px;
+  width: 100%;
+  text-align: center;*/
+}
+
+[class*="col-"] {
+ /* border: 1px black solid;
+  padding: 10px;
+}*/
