@@ -1,20 +1,59 @@
-body{ padding-top: 50px; }
+body{ 
+  padding-top: 50px;
+
+   
+
+}
+
+.grid-item { width: 200px; 
+}
+
+.grid-item--width2 { width: 400px; 
+}
 
 .jumbotron {
-  background-color: #2C87B2;
+  font-family: 'Raleway', sans-serif;
+   background-image: url(../images/roof.jpg);
+   background-size: cover; 
+   color: #ffffff;
+
+}
+
+.headerphoto{
+  background-image: "images/Typewriter.jpg";
+  background-size: cover;  
 }
 
 .featurette-one{
-  background-color: #18777F;
+  background-color: #ffffff;
+  font-family: 'Slabo 27px', serif;
+  margin-left: 5%;
 }
 
 .featurette-two{
-  background-color: #337F7A;
+  background-color: #ffffff;
+  font-family: 'Slabo 27px', serif;
+  margin-right: 5%;
+}
+
+nav{
+  font-family: 'Raleway', sans-serif;
 }
 
 
 .featurette-three{
-  background-color: #297F77;
+  background-color: #ffffff;
+  font-family: 'Slabo 27px', serif;
+  margin-left: 5%;
+}
+
+.nameHeader{
+  font: 40px;
+  font-family: 'Slabo 27px', serif;
+}
+
+footer{
+  text-align: center;
 }
 
 /*h1 {
@@ -30,8 +69,8 @@ body{ padding-top: 50px; }
   width: 100%;
   text-align: center;*/
 }
-
-[class*="col-"] {
+/*
+[class*="col-"] {*/
  /* border: 1px black solid;
   padding: 10px;
 }*/
