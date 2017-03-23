@@ -67,6 +67,10 @@ nav.navbar-inverse nav.navbar nav.navbar-fixed-top nav.navbar-header div.navbar-
   color:#fff;
   border-bottom: none;
 }
+.text-muted{
+  font-size: 20px;
+  margin-left: 10px;
+}
 
 footer{
   text-align: center;
