@@ -16,4 +16,17 @@ $grid.imagesLoaded().progress( function() {
 });
 
 
+var $container = $('.grid');
+
+$container.imagesLoaded(function(){
+  $container.masonry({
+    itemSelector: '.isotope-item',
+    animate: true,
+  columnWidth: 300,
+  fitWidth: true,
+    gutterWidth: 15
+  });
+});
+
+
 });
