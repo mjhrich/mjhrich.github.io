@@ -1,0 +1,16 @@
+body {
+	background: #333;
+}
+
+.carousel {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.carousel img {
+	width: 400px;
+}
+
+img {
+	max-width: 100%;
+}
