@@ -18,10 +18,14 @@ body{
 
 .jumbotron {
   font-family: 'Raleway', sans-serif;
-   background-image: url(../images/roof.jpg);
+   background-color: #ffffff;
    background-size: cover; 
-   color: #ffffff;
+   color: black;
 
+}
+
+.carousel{
+  width:250px;
 }
 
 .slick-prev:before, .slick-next:before {
