@@ -81,6 +81,29 @@ nav.navbar-inverse nav.navbar nav.navbar-fixed-top nav.navbar-header div.navbar-
   margin-left: 10px;
 }
 
+#container form {
+  margin: 30px 0px 80px;
+}
+
+#container form div {
+  margin-top: 10px;
+}
+
+#container form input[type='text'] {
+  font-size: 18px;
+  width: 300px
+}
+
+#container form textarea {
+  font-size: 18px;
+  width: 300px;
+  height: 100px;
+}
+#container form label {
+  width: 150px;
+  display: inline-block;
+}
+
 footer{
   text-align: center;
 }

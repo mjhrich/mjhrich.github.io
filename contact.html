@@ -44,67 +44,54 @@
  -->   </div>
     </div>
 
-    <!-- </div>
+    <div id='container'>
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <!-- <div class="row">
-        <div class="col-md-4">
-          <h2>Editing</h2>
-          <img src="..." alt="..." class="img-circle">
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Photography</h2>
-          <img src="images/photographerprofilethumbnail.jpg" alt="Photography" class="img-circle">
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <img src="..." alt="..." class="img-circle">
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div> -->
-      <!-- </div>
-      <hr class="featurette-divider">
+      <h2>Contact Us Form - Without a server</h2>
+      <p>This form uses <a href="http://formspree.io/">formspree.io</a></p>
+      <p>This will work once your site are deployed to a server</p>
 
-      <div class="row featurette featurette-one">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Editing <span class="text-muted">Help me help you.</span></h2>
-          <p class="lead">I've edited <i>New York Times</i> bestsellers, <i>USA Today</i> bestsellers, and award-winning books. My specialties are YA fiction, and Adult Romance but I can also work with anything from your website to your grad school essay. </p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="images/Typewriter.jpg" alt="Generic placeholder image">
-        </div>
-      </div>
+      <p>To have this work locally (i.e. on your computer), you need to run your site in a local web server. View these links for more details: </p>
 
-      <hr class="featurette-divider">
+      <ul>
+        <li>
+          Mac users:
+          <a href="http://lifehacker.com/start-a-simple-web-server-from-any-directory-on-your-ma-496425450" target="_blank"> click here for more details</a> 
+        </li>
 
-      <div class="row featurette featurette-two">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Photography <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">From the perfect headshot to a non-pretentious author photo to food styling, I've done it all.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="images/photographerprofilethumbnail.jpg" alt="Generic placeholder image">
-        </div>
-      </div>
+        <li>
+          Windows users:
+          <a href="http://webmasterjuice.com/how-to-activate-built-in-web-server-windows" target="_blank"> click here for more details</a> 
+        </li>
+      </ul>
 
-      <hr class="featurette-divider">
 
-      <div class="row featurette featurette-three">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Contact Me <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <form action="http://formspree.io/kareem+formspree@getuserwise.com" method="POST">
+        <div>
+          <label> Name:</label>
+          <input type="text" name="name">
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="images/february.jpg" alt="Generic placeholder image">
-        </div>
-      </div>
 
-      <hr class="featurette-divider"> --> -->
+        <div>
+          <label> Email:</label>
+          <input type="text" name="_replyto">
+        </div>
+
+        <div>
+          <label> Comment: </label>
+          <textarea name="comments"></textarea>
+        </div>
+
+        <!-- this is the page that will be displayed after some submits the form -->
+        <input type="hidden" name="_next" value="thank_you.html" />
+
+        <div>
+          <input type="submit" value="Send">
+        </div>
+      </form>
+    </div>
+
+
+      <hr class="featurette-divider"> 
 
       
 
