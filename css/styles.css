@@ -82,7 +82,7 @@ nav.navbar-inverse nav.navbar nav.navbar-fixed-top nav.navbar-header div.navbar-
 }
 
 #container form {
-  margin: 30px 0px 80px;
+  margin: 30px 30px 30px;
 }
 
 #container form div {
@@ -102,6 +102,10 @@ nav.navbar-inverse nav.navbar nav.navbar-fixed-top nav.navbar-header div.navbar-
 #container form label {
   width: 150px;
   display: inline-block;
+}
+
+#contactform{
+  text-align: center;
 }
 
 footer{
