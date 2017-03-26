@@ -1,5 +1,6 @@
 body{ 
   padding-top: 50px;
+  background-color: #fff;
 
 }
 
@@ -21,6 +22,10 @@ body{
    background-size: cover; 
    color: #ffffff;
 
+}
+
+.slick-prev:before, .slick-next:before {
+  color:black;
 }
 
 .headerphoto{
