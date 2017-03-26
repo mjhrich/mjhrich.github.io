@@ -4,7 +4,7 @@ $(function(){
 $('.grid').masonry({
   // options
   itemSelector: '.grid-item',
-  columnWidth: 200
+  columnWidth: 300
 });
 
 var $grid = $('.grid').masonry({
@@ -24,7 +24,7 @@ $container.imagesLoaded(function(){
     animate: true,
   columnWidth: 300,
   fitWidth: true,
-    gutterWidth: 15
+    gutter:10,
   });
 });
 
