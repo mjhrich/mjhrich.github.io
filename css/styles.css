@@ -1,7 +1,10 @@
 body{ 
   padding-top: 50px;
   background-color: #fff;
+}
 
+.nav > li > a:hover{
+    background-color:#000;
 }
 
 .grid-item { width: 300px; 
@@ -74,10 +77,10 @@ nav.navbar-inverse nav.navbar nav.navbar-fixed-top nav.navbar-header div.navbar-
   font: 40px;
   font-family: 'Slabo 27px', serif;
 }
-nav.navbar-inverse nav.navbar nav.navbar-fixed-top nav.navbar-header div.navbar-brand{
+/*nav.navbar-inverse nav.navbar nav.navbar-fixed-top nav.navbar-header div.navbar-brand{
   color:#fff;
   border-bottom: none;
-}
+}*/
 .text-muted{
   font-size: 20px;
   margin-left: 10px;
@@ -112,6 +115,10 @@ nav.navbar-inverse nav.navbar nav.navbar-fixed-top nav.navbar-header div.navbar-
 
 footer{
   text-align: center;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #000;
 }
 
 /*h1 {
