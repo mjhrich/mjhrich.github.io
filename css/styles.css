@@ -35,7 +35,7 @@ h1 h2.featurette-heading{
 }
 
 div.jumbotron{
-  background: linear-gradient(#fff, transparent 50%), url("../images/bannerhands.jpg") no-repeat center; 
+  background: linear-gradient(#fff, transparent 80%), url("../images/bannerhands.jpg") no-repeat center; 
 background-size: cover; 
 box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8); 
 /*  background-image: url(../images/bannerhands.jpg);
@@ -79,6 +79,10 @@ nav.navbar-inverse nav.navbar nav.navbar-fixed-top nav.navbar-header div.navbar-
   border-bottom: none;
 }
 
+form{
+  background-color:#ffffff;
+  object-position: center;
+}
 
 .featurette-three{
   background-color: #ffffff;
